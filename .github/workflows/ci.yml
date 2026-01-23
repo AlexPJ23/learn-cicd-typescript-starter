@@ -26,3 +26,6 @@ jobs:
       
       - name: Format Check and Fix
         run: npm run format:check && npm run format:write
+        
+      - name: Linting
+        run: npm run lint
