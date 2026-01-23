@@ -8,8 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - runs: npm ci
-      - run: npm run build
+     - name: Install Dependencies
+       runs: npm ci
+     - name: Build NPM
+       run: npm run build
 
   tests:
     needs: build
