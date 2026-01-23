@@ -1,6 +1,6 @@
 # learn-cicd-typescript-starter (Notely)
 
-![Coverage Testing](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
+![Coverage Testing](https://github.com/AlexPJ23/main/actions/workflows/ci.yml/badge.svg)
 
 
 
