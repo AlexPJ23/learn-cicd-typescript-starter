@@ -25,4 +25,4 @@ jobs:
         run: npm run test --coverage
       
       - name: Format Check and Fix
-        run: npm run format:check && nupm run format:write
+        run: npm run format:check && npm run format:write
